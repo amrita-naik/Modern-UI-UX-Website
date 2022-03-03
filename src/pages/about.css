@@ -1,0 +1,15 @@
+.about {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.about-img {
+  width: 40%;
+  height: 75%;
+}
+
+.about-container {
+  width: 50%;
+  border: 1px solid red;
+}
