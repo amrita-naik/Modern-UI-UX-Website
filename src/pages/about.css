@@ -2,6 +2,10 @@
   height: 100vh;
   display: flex;
   color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .about-img {
@@ -10,6 +14,28 @@
 }
 
 .about-container {
-  width: 50%;
-  border: 1px solid red;
+  width: 30%;
+  height: 70%;
+}
+
+.about-container h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.about-container h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.about-container ul {
+  margin-top: 20px;
+}
+
+.about-container ul li {
+  list-style: circle;
+  padding: 5px;
 }

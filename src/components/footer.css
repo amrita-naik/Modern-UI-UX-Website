@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+.newsletter {
+  border: 1px solid slateblue;
+  padding: 50px;
+}
+
+.newsletter h1 {
+  text-align: center;
+}
+
+.newsletter-input {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter input {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 400px;
+  padding: 10px 5px;
+}
+
+.newsletter button {
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0 50px;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: #3cd4e9;
+  font-family: "Courgette", cursive;
+  cursor: pointer;
+}
+
+.footer-one p {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.social-link {
+  font-size: 40px;
+  width: 50px;
+  cursor: pointer;
+  padding: 0 5px 0 0;
+}
+
+.quick-links a,
+.company-links a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  font-weight: 300;
+  padding: 7px 0;
+}
+
+.contact-info span {
+  display: flex;
+}
+
+.contact-info-icon {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.contact-detail {
+  margin: 10px 0 0 15px;
+}

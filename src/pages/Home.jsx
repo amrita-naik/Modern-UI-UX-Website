@@ -15,7 +15,6 @@ const Home = () => {
 
         <Canvas className='canvas'> 
             <ambientLight intensity={0.5} />
-            
             <Box />
         </Canvas>
 

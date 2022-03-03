@@ -7,9 +7,9 @@ const About = () => {
     <div className='about'>
         <img src={AboutImg} className='about-img' alt="" />
         <div className="about-container">
-            <h1 classname='about-title'>ABOUT US</h1>
+            <h1>ABOUT US</h1>
             <h2>Based in Mumbai, India</h2>
-            <p about-text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi eum enim aliquam aut vel pariatur autem explicabo non eos magnam?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi eum enim aliquam aut vel pariatur autem explicabo non eos magnam?</p>
             <ul>
                 <li>Fast Mining</li>
                 <li>TRC20 Support</li>

@@ -1,0 +1,31 @@
+.price {
+  border-top: 10px solid black;
+  height: 100vh;
+}
+.price {
+  border-top: 10px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-info {
+  width: 30%;
+}
+
+.price-info h1,
+.price-info p {
+  text-align: center;
+}
+
+.price-cards {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.price-card {
+  width: 250px;
+}

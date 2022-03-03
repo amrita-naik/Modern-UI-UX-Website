@@ -8,7 +8,7 @@
 
 .home-info {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 10%;
 }
 
@@ -34,4 +34,10 @@
   background-color: #3cd4e9;
   font-size: 20px;
   cursor: pointer;
+}
+
+.canvas {
+  width: 50% !important;
+  position: absolute !important;
+  right: 0;
 }
