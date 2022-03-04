@@ -5,7 +5,9 @@ import contactImg from '../images/contact.png'
 const Contact = () => {
   return (
     <div className='contact'>
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
+        <p>Questions, bug reports, feedback, feature requests - we're here for it all!</p>
+        <h3>Fill out the form!</h3>
         <div className="contact-container">
           <img className='contact-img' src={contactImg} alt="" />
           <form className='contact-form-box'>

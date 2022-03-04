@@ -1,6 +1,16 @@
 .contact {
-  border-top: 5px solid black;
   height: 100vh;
+}
+
+.contact h1,
+.contact p,
+.contact h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.contact p {
+  font-size: 20px;
 }
 
 .contact-container {

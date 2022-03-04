@@ -1,5 +1,4 @@
 .services {
-  border-top: 10px solid black;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,6 +13,7 @@
 .services-info h2,
 .services-info p {
   text-align: center;
+  margin-top: 15px;
 }
 
 .services-cards {
@@ -25,8 +25,15 @@
 }
 .services-card {
   width: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 25px;
 }
 
 .services-icon {
   width: 75px;
+}
+
+.services-card h3 {
+  margin: 15px 0;
 }
