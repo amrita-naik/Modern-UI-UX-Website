@@ -1,10 +1,7 @@
 import './home.css'
 import { BlurPass } from 'postprocessing'
 import Box from '../components/Box'
-import { OrbitControls } from "@react-three/drei";
-import * as THREE from "three";
-import React, { useRef, Suspense } from "react";
-import { render } from "react-dom";
+import React, { Suspense } from "react";
 import { EffectComposer, Bloom } from "@react-three/postprocessing";
 import { Canvas } from 'react-three-fiber'
 

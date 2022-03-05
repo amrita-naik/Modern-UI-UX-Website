@@ -28,10 +28,10 @@
 .home-btn {
   margin-top: 20px;
   padding: 10px 15px;
-  border-radius: 25px;
+  border-radius: 7px;
   outline: none;
   border: none;
-  background-color: #3cd4e9;
+  background-color: #c22b59;
   font-size: 20px;
   cursor: pointer;
 }

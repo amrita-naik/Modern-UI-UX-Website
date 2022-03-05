@@ -7,6 +7,7 @@
 
 .newsletter h1 {
   text-align: center;
+  z-index: 2;
 }
 
 .newsletter-input {
@@ -40,7 +41,7 @@ footer {
 .logo {
   text-decoration: none;
   font-size: 30px;
-  color: #3cd4e9;
+  color: #c22b59;
   font-family: "Courgette", cursive;
   cursor: pointer;
 }

@@ -1,5 +1,6 @@
 .contact {
   height: 100vh;
+  position: relative;
 }
 
 .contact h1,
@@ -63,26 +64,13 @@
   text-decoration: none;
   background: #3cd4e9;
   transition: all 0.3s;
-  /* shine effect */
-  background-repeat: no-repeat;
-  background-position: -135px -135px, 0 0;
-  background-image: -webkit-linear-gradient(
-    top left,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 37%,
-    rgba(255, 255, 255, 0.8) 45%,
-    rgba(255, 255, 255, 0) 50%
-  );
-  background-size: 250% 250%, 100% 100%;
-  transition: background-position 0s ease;
 }
-.contact-form-box button:active {
-  border-radius: 10px;
-  background: white;
-}
-
-.contact-form-box button:hover {
-  transform: scale(1.03);
-  background-position: 0 0, 0 0;
-  transition-duration: 0.9s;
+.particles {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }

@@ -6,6 +6,13 @@
   justify-content: space-evenly;
   font-weight: 300;
   font-size: 20px;
+  background: rgb(9, 21, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 21, 37, 1) 25%,
+    rgba(21, 56, 74, 1) 50%,
+    rgba(38, 81, 102, 1) 75%
+  );
 }
 
 .about-img {

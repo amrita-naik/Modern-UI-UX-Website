@@ -19,12 +19,33 @@ nav {
 
 .nav-link {
   cursor: pointer;
+  font-weight: 300;
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #c22b59;
+  transition: width 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav-link:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }
 
 .logo {
   text-decoration: none;
   font-size: 30px;
-  color: #3cd4e9;
+  color: #c22b59;
   font-family: "Courgette", cursive;
   cursor: pointer;
 }
@@ -32,10 +53,10 @@ nav {
 .nav-btn {
   margin-top: -10px;
   padding: 10px 25px;
-  border-radius: 25px;
+  border-radius: 7px;
   outline: none;
   border: none;
-  background-color: #3cd4e9;
+  background-color: #c22b59;
   font-size: 20px;
   cursor: pointer;
 }

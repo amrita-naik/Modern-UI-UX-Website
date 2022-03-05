@@ -5,6 +5,8 @@ import { BiPhoneCall, BiEnvelope } from "react-icons/bi";
 import { GoLocation } from "react-icons/go";
 
 const Footer = () => {
+
+   
   return (
     <div className='footer-section'>
         <div className='newsletter'>
@@ -66,6 +68,7 @@ const Footer = () => {
                 </span>
             </div>
         </footer>
+        
     </div>
   )
 }
