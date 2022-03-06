@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 .newsletter {
-  border: 1px solid slateblue;
+  background: url("../images/price-bg.png");
   padding: 50px;
 }
 
@@ -30,6 +30,7 @@
   width: 100px;
   border: none;
   cursor: pointer;
+  border-radius: 0;
 }
 
 footer {
