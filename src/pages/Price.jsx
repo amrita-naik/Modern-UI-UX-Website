@@ -3,7 +3,7 @@ import './price.css'
 
 const Price = () => {
   return (
-    <div className='price'>
+    <div className='price' id='price'>
         <div className="price-info">
             <h1>Our Price Token</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus enim officiis libero rem rerum corporis?</p>

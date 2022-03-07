@@ -6,7 +6,7 @@ import crypto3 from '../images/crypto3.jpg'
 
 const Blog = () => {
   return (
-    <div className='blog'>
+    <div className='blog' id='blog'>
         <div className="blog-info">
           <h1 >Our Latest News and Blogs</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis quibusdam quaerat? Inventore laborum perspiciati</p>

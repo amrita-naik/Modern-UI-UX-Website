@@ -49,7 +49,7 @@ const Footer = () => {
                     <GoLocation className='contact-info-icon' />
                     <div className="contact-detail">
                         <h4>Find Us</h4>
-                        <p>Mumbai, India</p>
+                        <p>Pune, India</p>
                     </div>
                 </span>
                 <span>

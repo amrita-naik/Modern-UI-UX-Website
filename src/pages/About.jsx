@@ -4,11 +4,11 @@ import './about.css'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <img src={AboutImg} className='about-img' alt="" />
         <div className="about-container">
             <h1>ABOUT US</h1>
-            <h2>Based in Mumbai, India</h2>
+            <h2>Based in Pune, India</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi eum enim aliquam aut vel pariatur autem explicabo non eos magnam?</p>
             <ul>
                 <li>Fast Mining</li>

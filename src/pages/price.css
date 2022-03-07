@@ -1,9 +1,10 @@
 .price {
-  height: 100vh;
+  height: 105vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(9, 21, 37, 1);
+  padding-top: 55px;
 }
 
 .price-info {
@@ -28,7 +29,7 @@
 .price-card {
   width: 350px;
   border: 1px solid black;
-  margin-top: 25px;
+  margin-top: 20px;
   padding: 40px;
   text-align: center;
   background-color: rgba(21, 56, 74, 1);

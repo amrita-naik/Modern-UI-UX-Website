@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 nav {
-  margin-top: 20px;
-  position: absolute;
+  padding: 20px 0 15px;
+  position: fixed;
   color: white;
   display: flex;
   justify-content: space-around;
   width: 100%;
+  z-index: 5;
 }
 
 .nav-links {
@@ -15,6 +16,11 @@ nav {
   justify-content: space-between;
   width: 40%;
   font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-link {
@@ -59,4 +65,8 @@ nav {
   background-color: #c22b59;
   font-size: 20px;
   cursor: pointer;
+}
+
+.nav-bg {
+  background-color: rgb(0, 0, 0, 0.8);
 }

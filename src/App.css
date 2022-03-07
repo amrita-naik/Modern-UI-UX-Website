@@ -11,6 +11,11 @@ body {
   background-color: rgba(21, 56, 74, 1);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 button {
   padding: 10px 25px;
   border-radius: 7px;

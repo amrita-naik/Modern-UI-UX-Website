@@ -11,7 +11,7 @@ import ecosystem from '../images/ecosystem.png'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
         <div className="services-info">
             <h1>Why choose Us?</h1>
             <h2>Our Core Services</h2>

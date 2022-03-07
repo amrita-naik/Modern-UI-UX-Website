@@ -1,6 +1,7 @@
 .blog {
-  height: 100vh;
+  height: 110vh;
   background-color: rgba(38, 81, 102, 1);
+  padding-top: 55px;
 }
 
 .blog-info {
